@@ -16,17 +16,17 @@ public class Praktikum2 {
         Scanner scanner = new Scanner(System.in);
         int intInput;
         double doJumlah = 0;
-        double doCounter = 0;
+        int intCounter = 0;
 
         System.out.println("Input: ");
         try {
-            do{
+            while (true){
                 intInput = scanner.nextInt();
                 doJumlah += intInput;
-                doCounter++;
-            }while (true);
+                intCounter++;
+            }
         } catch (Exception e) {
-            double doAverage = doJumlah/doCounter;
+            double doAverage = doJumlah/intCounter;
             System.out.println("\nRata-rata: " + doAverage);
         } finally {
             System.out.println("\nDone.");
