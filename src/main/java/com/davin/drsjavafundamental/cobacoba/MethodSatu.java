@@ -15,7 +15,7 @@ public class MethodSatu {
         double doB = 15;
         double doC = 19;
 
-        System.out.println(LuasPersegi(doC));
+        System.out.println(LuasPersegi(doB));
         System.out.println(LuasLayangLayang(doA,doC));
     }
 
