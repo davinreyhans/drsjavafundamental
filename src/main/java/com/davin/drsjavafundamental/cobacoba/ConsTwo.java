@@ -11,7 +11,9 @@ Version 1.0
 
 public class ConsTwo {
     public static void main(String[] args) {
-        ConsOne consOne = new ConsOne();
+        ConsOne consOne = new ConsOne("davin",100);
+
+        System.out.println("Nama: ");
     }
 }
 
